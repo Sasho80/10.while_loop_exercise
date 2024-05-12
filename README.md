@@ -74,6 +74,26 @@ Game Info
 Best Player
 4	
 
+03.Problem: Vacation
+Jessie has decided to raise money for a field trip and she wants you to help her find out if she will be able to raise the necessary amount. She saves or spends some of her money every day. If she wants to spend more than her available money, she will spend as much as she has and she will have BGN 0 left.
+input
+The console reads:
+• Money needed for the excursion - a real number;
+• Cash available - real number.
+Then they are repeatedly read in two lines:
+• Type of action – text with two options: "spend" or "save";
+• The amount you will save/spend - a real number.
+output
+The program must be terminated in the following cases:
+• If for 5 consecutive days Jesse only spends, the console should read:
+o "You can't save the money."
+o "{Total Days Elapsed}"
+• If Jesse collects the vacation money, the console reads:
+o "You saved the money for {total number of days passed} days."
+
+Sample input and output
+
+
 
 
 
