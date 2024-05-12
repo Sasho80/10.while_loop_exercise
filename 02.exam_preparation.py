@@ -5,7 +5,7 @@ unsatisfactory_grade = 0
 last_task = ""
 
 while True:
-    name_task = input()
+    name_task = int(input())
     if name_task == "Enough":
         print(f"Average score: {average_score/counter_task:.2f}")
         print(f"Number of problems: {counter_task}")
