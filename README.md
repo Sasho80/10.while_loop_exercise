@@ -92,6 +92,42 @@ o "{Total Days Elapsed}"
 o "You saved the money for {total number of days passed} days."
 
 Sample input and output
+input 	 output
+2000     You saved the money for 2 days.
+1000
+spend
+1200
+save
+2000	
+
+input   output
+110     You can't save the money.
+60      5
+spend
+10
+spend
+10
+spend
+10
+spend
+10
+spend
+10	
+
+input   output
+250     You saved the money 
+150     for 4 days.
+spend
+50
+spend
+50
+save
+100
+save
+100	
+
+
+
 
 
 
